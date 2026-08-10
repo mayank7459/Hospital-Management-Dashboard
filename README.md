@@ -43,6 +43,10 @@ The dashboard focuses on:
 - Payment mode analysis
 - Admission type analysis
 
+## Dashboard Preview
+
+![Hospital Management Dashboard](hospital-dashboard.png)
+
 ## Dataset
 
 The `Dataset` folder contains the files used for the project:
