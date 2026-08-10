@@ -57,11 +57,13 @@ The `Dataset` folder contains the files used for the project:
 - Visits.csv
 - Hospital Dataset Blueprint
 
+[View Dataset](Dataset/)
+
 ## SQL Analysis
 
 The SQL analysis used in this project is available in:
 
-`Hospital_Management_SQL.sql`
+[View SQL Analysis](Hospital_Management_SQL.sql)
 
 The SQL file contains the queries used to analyze and prepare the hospital data for the dashboard.
 
@@ -69,7 +71,7 @@ The SQL file contains the queries used to analyze and prepare the hospital data 
 
 The Power BI dashboard file is available here:
 
-`Hospital_Management_Dashboard.pbix`
+[View Power BI Dashboard](Hospital_Management_Dashboard.pbix)
 
 ## Project Structure
 
