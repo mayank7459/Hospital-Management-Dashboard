@@ -10,33 +10,14 @@ I worked with the data in SQL first and then used Power BI to build the final in
 
 ## Tools Used
 
-- SQL (PostgreSQL)
+- PostgreSQL
+- SQL
 - Power BI
-- DAX
-- CSV files
+- Excel / CSV
 
-## What I Analyzed
+## Project Areas
 
-In SQL, I worked on basic hospital metrics and different types of analysis such as:
-
-- Total visits
-- Total patients
-- Total doctors
-- Total revenue
-- Average revenue per visit
-- Average revenue per patient
-- Average stay days
-- Average patients per doctor
-- Revenue by department
-- Revenue by payment mode
-- Visits by admission type
-- Average stay days by admission type
-
-I also used SQL results to cross-check some of the numbers shown in Power BI.
-
-## Power BI Dashboard
-
-The dashboard contains 8 main KPIs:
+The dashboard focuses on:
 
 - Total Revenue
 - Total Patients
@@ -44,60 +25,60 @@ The dashboard contains 8 main KPIs:
 - Total Doctors
 - Average Revenue per Visit
 - Average Stay Days
-- Average Revenue per Patient
 - Average Patients per Doctor
-
-### Charts
-
+- Average Revenue per Patient
 - Monthly Revenue Trend
 - Revenue by Department
 - Revenue by Payment Mode
-- Visits by Admission Type
 - Average Stay Days by Admission Type
+- Visits by Admission Type
 
-### Filters
+## Dashboard Features
 
-I added two slicers to make the dashboard interactive:
-
-- Year
-- Department
-
-Selecting a year or department updates the KPIs and charts accordingly.
-
-## SQL
-
-The SQL queries used for the project are available in:
-
-`SQL/Hospital_Management_SQL.sql`
+- Department filter
+- Year filter
+- KPI cards
+- Monthly revenue trend
+- Department-wise revenue analysis
+- Payment mode analysis
+- Admission type analysis
 
 ## Dataset
 
-The project uses CSV files containing hospital-related data such as:
+The `Dataset` folder contains the files used for the project:
 
-- Visits
-- Patients
-- Doctors
-- Departments
+- Departments.csv
+- Doctors.csv
+- Patients.csv
+- Visits.csv
+- Hospital Dataset Blueprint
 
-The tables were connected in Power BI using their respective IDs.
+## SQL Analysis
 
-## What I Learned
+The SQL analysis used in this project is available in:
 
-While working on this project, I practiced:
+`Hospital_Management_SQL.sql`
 
-- SQL joins
-- GROUP BY and HAVING
-- Aggregate functions
-- CASE statements
-- CTEs
-- Window functions
-- Data relationships in Power BI
-- DAX measures
-- Power BI visuals
-- Slicers and dashboard formatting
+The SQL file contains the queries used to analyze and prepare the hospital data for the dashboard.
 
-## Project File
+## Power BI Dashboard
 
-The main Power BI dashboard is:
+The Power BI dashboard file is available here:
 
 `Hospital_Management_Dashboard.pbix`
+
+## Project Structure
+
+```text
+Hospital-Management-Dashboard
+│
+├── Dataset
+│   ├── Departments.csv
+│   ├── Doctors.csv
+│   ├── Patients.csv
+│   ├── Visits.csv
+│   └── Hospital_Dataset_BLUEPRINT.xlsx
+│
+├── Hospital_Management_Dashboard.pbix
+├── Hospital_Management_SQL.sql
+└── README.md
